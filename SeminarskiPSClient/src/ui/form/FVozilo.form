@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Vozilo"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="24" pref="24" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="lblVoziloID" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="txtVoziloID" min="-2" pref="272" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="lblErrorVoziloID" alignment="1" min="-2" pref="412" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="lblRegistarskiBroj" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="txtRegistarskiBroj" min="-2" pref="272" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="lblErrorRegistarskiBroj" min="-2" pref="412" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="lblBrojSasije" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="txtBrojSasije" min="-2" pref="272" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="lblErrorBrojSasije" min="-2" pref="412" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="lblGodiste" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="txtGodiste" min="-2" pref="272" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="lblErrorGodiste" min="-2" pref="412" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="lblZapreminaMotora" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="106" max="-2" attributes="0"/>
+                      <Component id="txtZapreminaMotora" min="-2" pref="272" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="lblErrorZapreminaMotora" min="-2" pref="412" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="lblSnaga" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="txtSnaga" min="-2" pref="272" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="lblErrorSnaga" min="-2" pref="412" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="lblDnevnaCena" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="txtDnevnaCena" min="-2" pref="272" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="lblErrorDnevnaCena" min="-2" pref="412" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="lblMarka" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="cmbMarka" min="-2" pref="272" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="lblErrorMarka" min="-2" pref="412" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="lblModel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="cmbModel" min="-2" pref="271" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="lblErrorModel" min="-2" pref="412" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="29" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="btnOmoguciIzmenu" alignment="0" min="-2" pref="135" max="-2" attributes="0"/>
+                  <Component id="btnSacuvajIzmene" alignment="0" min="-2" pref="135" max="-2" attributes="0"/>
+                  <Component id="btnSacuvajVozilo" alignment="0" min="-2" pref="135" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblVoziloID" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtVoziloID" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblErrorVoziloID" min="-2" pref="15" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblRegistarskiBroj" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtRegistarskiBroj" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lblErrorRegistarskiBroj" min="-2" pref="15" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblBrojSasije" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtBrojSasije" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lblErrorBrojSasije" min="-2" pref="15" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblGodiste" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtGodiste" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="btnOmoguciIzmenu" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="btnSacuvajIzmene" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="btnSacuvajVozilo" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblErrorGodiste" min="-2" pref="15" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblZapreminaMotora" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtZapreminaMotora" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblErrorZapreminaMotora" min="-2" pref="15" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblSnaga" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtSnaga" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblErrorSnaga" min="-2" pref="15" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblDnevnaCena" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtDnevnaCena" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblErrorDnevnaCena" min="-2" pref="15" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblMarka" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmbMarka" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblErrorMarka" min="-2" pref="15" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblModel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmbModel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblErrorModel" min="-2" pref="15" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="btnOmoguciIzmenu">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Omoguci izmenu"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSacuvajVozilo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sacuvaj"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSacuvajIzmene">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sacuvaj promene"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblVoziloID">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ID Vozila"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtVoziloID">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblErrorVoziloID">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRegistarskiBroj">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Registarski broj"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtRegistarskiBroj">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblErrorRegistarskiBroj">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblBrojSasije">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Broj Sasije"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblErrorBrojSasije">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtBrojSasije">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblGodiste">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Godiste"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtGodiste">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblErrorGodiste">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtZapreminaMotora">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblErrorZapreminaMotora">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblZapreminaMotora">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Zapremina motora"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtSnaga">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSnaga">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Snaga"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblErrorSnaga">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDnevnaCena">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblErrorDnevnaCena">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDnevnaCena">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Dnevna cena"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMarka">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Marka"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblErrorMarka">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblModel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Model"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblErrorModel">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbMarka">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;Marka&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbModel">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;Model&gt;"/>
+      </AuxValues>
+    </Component>
+  </SubComponents>
+</Form>
